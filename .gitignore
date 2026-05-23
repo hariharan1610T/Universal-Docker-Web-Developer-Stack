@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.backup
+.env.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Docker local data directories 
+# (in case you ever bind mount local folders instead of named volumes)
+/mysql_data/
+/postgres_data/
+/mongo_data/
+/data/
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Log files
+*.log
+logs/
+
+# Ignore everything in www except index.php
+/www/*
+!/www/index.php
