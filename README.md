@@ -49,8 +49,8 @@ Clone the repository and set up your environment variables:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/dineshkummarc/Universal-Docker-Web-Developer-Stack.git
+cd Universal-Docker-Web-Developer-Stack
 
 # Copy the example environment file
 cp .env.example .env
